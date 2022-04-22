@@ -58,10 +58,10 @@ interface Array<T> {
 ``` ts
 const xs = [1, 2, 3];
 const x0 = xs[0];
-const x1 = xs['1']; // 인덱스가 number형식이어야 함.
+const x1 = xs['1']; // 인덱스 식이 number형식이 아니므로 요소에 암시적으로 any 형식이 있습니다.
 
 function get<T>(array: T[], k: string): T {
-  return array[k]; // k가 number형식이어야 함.
+  return array[k]; // 인덱스 식이 number형식이 아니므로 요소에 암시적으로 any 형식이 있습니다.
 }
 ```
 

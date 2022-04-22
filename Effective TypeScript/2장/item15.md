@@ -94,11 +94,11 @@ for(const row of rows) {
 
 const safeRows = safeParseCSV(csvData);
 for(const row of safeRows) {
-  prices[row.productId] = Number(row.price);
+  prices[row.productId] = Number(row.price); // undefined 형식을 인덱스 형식으로 사용할 수 없습니다.
 }
 ```
 물론 체크를 추가해야 하기에 작업이 조금 번거로울 수 있습니다. `undefined`를 타입에 추가할지는 상황에 맞게 판단해야 합니다.<br>
-연과 배열의 경우, 객체의 인덱스 시그니처를 사용하는 대신 `Map`타입을 사용하는 것을 고려할 수 있습니다. 이는 프로토타입 체인과 관련된 유명한 문제를 우회합니다.
+연관 배열의 경우, 객체의 인덱스 시그니처를 사용하는 대신 `Map`타입을 사용하는 것을 고려할 수 있습니다. 이는 프로토타입 체인과 관련된 유명한 문제를 우회합니다.
 
 ## 가능하다면 interface, Record, 매핑된 타입 같은 인덱스 시그니처보다 정확한 타입을 사용하는 것이 좋습니다.
 어떤 타입에 가능한 필드가 제한되어 있는 경우라면 인덱스 시그니처로 모델링하지 말아야 합니다. 예를 들어 데이터에 A, B, C, D같은 키가 있지만, 얼마나 많이 있는지 모른다면 선택적 필드 또는 유니온 타입으로 모델링하면 됩니다.
