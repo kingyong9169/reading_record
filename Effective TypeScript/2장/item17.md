@@ -213,8 +213,10 @@ but 여전히 paragraphs에 대한 오류가 남음.
 1. const
 - 변수 참조를 위한 것이다.
 - 변수에 다른 값을 할당할 수 없다.
+- 재할당 방지
 2. readonly
 - 속성을 위한 것이다.
+- 값 바꾸는 것 방지
 ``` ts
 type readonlyA = {
   readonly barA: { baz: string }
