@@ -18,3 +18,7 @@
 15. [동적 데이터에 인덱스 시그니처 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/2%EC%9E%A5/item15.md)
 16. [number 인덱스 시그니처보다는 Array, 튜플, ArrayLike를 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/2%EC%9E%A5/item16.md)
 17. [변경 관련된 오류 방지를 위해 readonly 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/2%EC%9E%A5/item17.md)
+
+## 3장 타입 추론
+24. [일관성 있는 별칭 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/3%EC%9E%A5/item24.md)
+25. [비동기 코드에는 콜백 대신 async함수 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/3%EC%9E%A5/item25.md)
