@@ -22,3 +22,6 @@
 ## 3장 타입 추론
 24. [일관성 있는 별칭 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/3%EC%9E%A5/item24.md)
 25. [비동기 코드에는 콜백 대신 async함수 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/3%EC%9E%A5/item25.md)
+
+## 4장 타입 설계
+33. [string 타입보다 더 구체적인 타입 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/4%EC%9E%A5/item33.md)
