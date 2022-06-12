@@ -26,3 +26,4 @@
 ## 4장 타입 설계
 33. [string 타입보다 더 구체적인 타입 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/4%EC%9E%A5/item33.md)
 34. [부정확한 타입보다는 미완성 타입을 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/4%EC%9E%A5/item34.md)
+35. [부정확한 타입보다는 미완성 타입을 사용하기](https://github.com/kingyong9169/reading_record/blob/main/Effective%20TypeScript/4%EC%9E%A5/item35.md)
